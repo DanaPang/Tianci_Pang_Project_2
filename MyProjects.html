@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Projects</title>
+        <style>
+            html {
+            background-image: url(desktop-1920x1080.png);
+            }
+            header {
+                text-align: center;
+                padding-top:0.1px; 
+                padding-bottom:0.1px;
+            }
+            footer {
+                text-align: center;
+            }
+            nav {
+                text-align: center;
+                font-weight: 600;
+            }
+            main {
+                background-color: white;
+                opacity: 0.6;
+                border-radius: 15px;
+                padding-left: 20px;
+                margin: 0px 80px 10px 80px;
+            }
+            table.A {
+                table-layout: auto;
+                width: 100%;
+            }
+            a:link {
+                color: white;
+            }
+            a:visited {
+                color: purple;
+            }
+            a:hover {
+                color:orange;  
+            }
+            header h1 {
+                color: white;
+                text-shadow: 2px 2px 2px grey;
+            }
+        </style>
+    </head>
+    <body>
+            <header>
+                <h1>My Projects</h1>
+            </header>
+            <br>
+            <nav id="navigation">
+                <a href="HomePage.html">Home</a>&emsp;
+                <a href="AboutMe.html">About Me</a>&emsp;
+                <a href="MyWorks.html">My Works</a>&emsp;
+                <a href="MyProjects.html">My Projects</a>&emsp;
+                <a href="Subscription.html">Subscription</a>&emsp;
+                <a href="ContactMe.html">Contact Me</a>
+            </nav>
+            <br>
+            <br>
+            <main>
+                <br>
+                <h2>2022 Projects</h2>
+                <table class="A" border="1" style="text-align: center;">
+                    <caption>My Projects</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">2022 First Half Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January-March<br>App development<br><img src="apps.png" width="50%"></td>
+                            <td>April-June<br>Online website<br><img src="website.png" width="50%"></td>
+                        </tr>
+                        <tr>
+                            <!--merge 2 cells by using colspan-->
+                            <td style="font-weight: 800;" colspan="2">2022 Second Half Year</td> 
+                        </tr>
+                        <tr>
+                            <td>July-September<br>Hotel system<br><img src="hotel.png" width="50%"></td>
+                            <td>October-December<br>E-commerce Website<br><img src="e-commerce.png" width="50%"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Thank you for watching</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+            </main>
+
+            <footer>
+                <i style="color: white;">Copyright &copy 2023 Tianci Pang</i>
+                <br>
+            </footer>    
+    </body>
+</html>

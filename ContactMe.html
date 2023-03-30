@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="contactMe.css">
+    </head>
+    <body>
+            <header>
+                <h1>Contact Me</h1>
+            </header>
+            <br>
+            <nav id="navigation">
+                <a href="HomePage.html">Home</a>&emsp;
+                <a href="AboutMe.html">About Me</a>&emsp;
+                <a href="MyWorks.html">My Works</a>&emsp;
+                <a href="MyProjects.html">My Projects</a>&emsp;
+                <a href="Subscription.html">Subscription</a>&emsp;
+                <a href="ContactMe.html">Contact Me</a>
+            </nav>
+            <br>
+            <br>
+            <main>
+                <br>
+                <h2>Contact Me Today</h2>
+                <form action="processMyInput.php" method="post">
+                    <input type="text" id="firstname" name="firstname" maxlength="20">
+                    <br>
+                    <label for="firstname">Firstname</label>
+                    <br>
+                    <input type="text" id="lastname" name="lastname" maxlength="20">
+                    <br>
+                    <label for="lastname">Lastname</label>
+                    <br>
+                    <input type="email" id="myemail" name="myemail">
+                    <br>
+                    <label for="myemail">Email</label>
+                    <br>
+                    <input type="number" id="phone" name="phone" maxlength="11">
+                    <br>
+                    <label for="phone">Phone number</label>
+                    <br>
+                    <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+                    <br>
+                    <label for="comments">Questions / Comment</label>
+                    <br>
+                    <br>
+                    <input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+                </form>
+                <br>
+            </main>
+
+            <footer>
+                <i style="color: white;">Copyright &copy 2023 Tianci Pang</i>
+                <br>
+            </footer>    
+    </body>
+</html>
